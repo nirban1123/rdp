@@ -3,7 +3,7 @@
 # Set default values
 username="user"
 password="root"
-chrome_remote_desktop_url="https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb"
+chrome_remote_desktop_url="https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi"
 
 # Function to log messages
 log() {
@@ -52,4 +52,5 @@ sudo add-apt-repository ppa:mozillateam/ppa
 sudo apt update
 sudo apt install firefox-esr -y
 
-log "Installation completed successfully"
+log "Installation completed successfull
+y"
