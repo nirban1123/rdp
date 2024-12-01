@@ -1,4 +1,4 @@
-# Chrome Remote Desktop Setup Script
+l# Chrome Remote Desktop Setup Script
 
 This repository contains a bash script to automate the installation and configuration of Chrome Remote Desktop on a Linux system. The script also installs the XFCE desktop environment and Firefox browser, and creates a new user.
 
@@ -21,7 +21,7 @@ This repository contains a bash script to automate the installation and configur
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/epic-miner/RDP
+    git clone https://github.com/nirban1123/rdp
     cd RDP
     ```
 
@@ -32,7 +32,7 @@ This repository contains a bash script to automate the installation and configur
 3. **Run the Script**
 
     ```bash
-    sudo sh aman.sh
+    sudo sh nirban.sh
     ```
 4. **(optional) run scrypt**
 
