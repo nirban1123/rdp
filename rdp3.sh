@@ -26,8 +26,8 @@ sudo apt install -y xfce4 desktop-base xfce4-terminal tightvncserver wget
 
 echo "Setting up Chrome Remote Desktop"
 echo "Installing Chrome Remote Desktop"
-wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
-sudo dpkg --install chrome-remote-desktop_current_amd64.deb
+wget https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi
+sudo dpkg --install chromeremotedesktophost.msi
 sudo apt install --assume-yes --fix-broken
 
 echo "Installing Desktop Environment"
@@ -39,8 +39,8 @@ sudo apt install --assume-yes xscreensaver
 sudo systemctl disable lightdm.service
 
 echo "Installing Google Chrome"
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg --install google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi
+sudo dpkg --install chromeremotedesktophost.msi
 sudo apt install --assume-yes --fix-broken
 
 # Prompt user for CRP value
